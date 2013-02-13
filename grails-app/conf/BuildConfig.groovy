@@ -51,6 +51,6 @@ grails.project.dependency.resolution = {
 
         runtime ":database-migration:1.1"
 
-        compile ":zk:2.1.0.M2"
+        compile ":zk:2.1.0"
     }
 }
