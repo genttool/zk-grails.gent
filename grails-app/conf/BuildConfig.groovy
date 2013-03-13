@@ -18,6 +18,7 @@ grails.project.dependency.resolution = {
     repositories {
         inherits true // Whether to inherit repository definitions from plugins
 
+        mavenRepo "https://centillex.codebasehq.com/zkgrails/release.svn"
         grailsPlugins()
         grailsHome()
         grailsCentral()
@@ -40,7 +41,7 @@ grails.project.dependency.resolution = {
     plugins {
         runtime ":hibernate:$grailsVersion"
         runtime ":jquery:1.8.3"
-        runtime ":resources:1.1.6"
+        runtime ":resources:1.2.RC2"
 
         // Uncomment these (or add new ones) to enable additional resources capabilities
         //runtime ":zipped-resources:1.0"
@@ -51,6 +52,6 @@ grails.project.dependency.resolution = {
 
         runtime ":database-migration:1.3.2"
 
-        compile ":zk:2.1.0"
+        compile ":zk:2.2.0.M5"
     }
 }
